@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/ks" name="datamask" xmlns="http://ws.apache.org/ns/synapse">
+  <resource inSequence="xsltmaskingSeq" methods="POST" protocol="http" url-mapping="/mask">
+    <outSequence/>
+    <faultSequence/>
+  </resource>
+</api>

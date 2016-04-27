@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="xsltmaskingSeq" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+  <xslt key="gov:/custom/masker.xslt">
+    <resource key="gov:/custom/maskingKeys.xslt" location="keys.xslt"/>
+  </xslt>
+  <respond/>
+</sequence>
