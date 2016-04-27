@@ -1,0 +1,3 @@
+{
+"keysToBeMasked":["account.ssn","account.contact.mobile","account.onlineAccount.accountNumbers","account.branch"]
+}

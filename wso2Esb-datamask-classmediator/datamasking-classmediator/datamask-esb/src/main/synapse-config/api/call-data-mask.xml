@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/mask" name="call-data-mask" xmlns="http://ws.apache.org/ns/synapse">
+  <resource inSequence="dataMaskerSeq" methods="POST" protocol="http">
+    <outSequence/>
+    <faultSequence/>
+  </resource>
+</api>
