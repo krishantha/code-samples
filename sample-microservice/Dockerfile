@@ -1,5 +1,6 @@
 from java:8
-expose 8181
+expose 92
+expose 8192
 add target/sample-microservice-1.0-SNAPSHOT.jar /opt/sample-microservice-1.0-SNAPSHOT.jar
 workdir /opt
-entrypoint ["java","-jar","sample-microservice-1.0-SNAPSHOT.jar"]
+ENTRYPOINT exec java $JAVA_OPTS -jar sample-microservice-1.0-SNAPSHOT.jar
